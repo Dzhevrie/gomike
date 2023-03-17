@@ -1,0 +1,22 @@
+{
+  "name": "project4",
+  "version": "1.0.0",
+  "description": "https://dzhevrie.github.io/gomike/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dzhevrie/Go-Mike-Design-website.git"
+  },
+  "author": "Dzhevrie Lyumanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dzhevrie/Go-Mike-Design-website/issues"
+  },
+  "homepage": "https://github.com/Dzhevrie/Go-Mike-Design-website#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
