@@ -10769,9 +10769,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .navbar {
   background-color: #fff;
-  margin: 1.2em;
+  margin: 1.2rem;
 }
 
 .navbar-brand img {
@@ -10780,72 +10785,247 @@ textarea.form-control-lg {
 
 .nav-link {
   color: #000;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
 .info {
   background-image: url("/img/atlanta made sign.png");
-  width: 100%;
+  background-attachment: fixed;
   height: 30em;
-}
-
-.presentation {
   display: flex;
   width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.presentation img {
-  width: 9em;
+.info img {
+  width: 9rem;
 }
-.presentation h1, .presentation .h1 {
-  margin: 0.2em;
-  font-size: 2.8em;
+.info h1, .info .h1 {
+  margin: 0.2rem;
+  font-size: 2.8rem;
 }
-.presentation p {
+.info p {
   width: 60%;
-  font-size: 2.2em;
+  font-size: 2.2rem;
   font-weight: 600;
 }
 
 .btn {
   background-color: #ea6433;
   color: #fff;
-  border-radius: 1em;
-  padding: 0.55em 2.3em;
-  margin: 1rem;
+  border-radius: 2rem;
+  padding: 0.7rem 1.7rem;
+}
+.btn:hover {
+  background-color: navajowhite;
 }
 
 .ad-text {
-  padding: 5em 0 2em 0;
+  padding: 5rem 0 2rem 0;
   align-items: center;
   display: flex;
   justify-content: center;
 }
 .ad-text p {
-  width: 68%;
+  width: 70%;
   text-align: center;
-  font-size: 2.3em;
-  font-weight: 700;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.ad-var {
+  display: flex;
+  align-items: flex-start;
+  align-content: space-between;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 2.5rem;
 }
 
 .services-var {
   display: flex;
+  padding: 3rem 2rem;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
 .services-var p {
-  width: 63%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+h2, .h2 {
+  font-size: 1.7rem;
+  margin: 1.5rem;
+  text-align: center;
 }
 
 .var-icon {
-  font-size: 5.5em;
+  font-size: 4rem;
   color: #3f3194;
   text-shadow: 0px 0px 2px black;
   text-align: center;
+}
+
+.persuade-atributes {
+  background-image: url(/img/atlanta\ made\ sign\ orange.jpg);
+  background-attachment: fixed;
+  background-position-x: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.persuade-atributes p {
+  background: rgba(0, 0, 0, 0.26);
+  width: 70%;
+  color: aliceblue;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 2rem;
+}
+.persuade-atributes a {
+  font-size: 1.2rem;
+  color: aqua;
+  padding-bottom: 3rem;
+}
+
+h3, .h3 {
+  width: 70%;
+  background: rgba(0, 0, 0, 0.26);
+  color: #fff;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.portfolio {
+  background-image: url(/img/lines-h2-bg.png);
+}
+
+h4, .h4 {
+  font-size: 2.1rem;
+  text-align: center;
+  padding: 6rem;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card {
+  padding: 1rem;
+  margin: 1rem;
+}
+.card img {
+  height: 280px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+}
+.card-body p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+h5, .h5 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.review-body {
+  padding: 3rem;
+}
+
+h6, .h6 {
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+
+.bi-avatar {
+  font-size: 3rem;
+  padding-right: 0.5rem;
+}
+
+.customer-name {
+  margin: 1rem 1rem 1rem 0;
+}
+.customer-name span {
+  font-size: 1.2rem;
+  font-style: oblique;
+}
+
+footer {
+  background-color: #364577;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  color: white;
+  text-align: center;
+}
+footer p {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.bi {
+  font-size: 2rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,14 +1,23 @@
+// utilitie API
+// @import "/scss/utilities_custom"; 
+
+// bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// CSS code
+body {
+    padding: 0;
+    margin: 0;
+}
 
 .navbar {
     background-color: #fff;
-    margin: 1.2em;
+    margin: 1.2rem;
 }
 
 .navbar-brand {
     img {
         width: 250px;
-
     }
 }
 
@@ -16,19 +25,22 @@
     color: #000;
 
     font: {
-        size: 1.4em;
+        size: 1.4rem;
         weight: 500;
     }
 }
 
+// .info {
+//     background-image: url("/img/atlanta\ made\ sign.png");
+//     background-attachment: fixed;
+//     width: 100%;
+//     height: 30em;
+// }
+
 .info {
     background-image: url("/img/atlanta\ made\ sign.png");
-    width: 100%;
+    background-attachment: fixed;
     height: 30em;
-    // position: fixed;
-}
-
-.presentation {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -36,14 +48,14 @@
     justify-content: center;
 
     img {
-        width: 9em;
+        width: 9rem;
     }
 
     h1 {
-        margin: 0.2em;
+        margin: 0.2rem;
 
         font: {
-            size: 2.8em;
+            size: 2.8rem;
         }
     }
 
@@ -51,7 +63,7 @@
         width: 60%;
 
         font: {
-            size: 2.2em;
+            size: 2.2rem;
             weight: 600;
         }
     }
@@ -60,9 +72,12 @@
 .btn {
     background-color: #ea6433;
     color: #fff;
-    border-radius: 1em;
-    padding: .55em 2.3em;
-    margin: 1rem;
+    border-radius: 2rem;
+    padding: 0.7rem 1.7rem;
+
+    &:hover {
+        background-color: navajowhite;
+    }
 }
 
 // .services {
@@ -74,43 +89,259 @@
 // }
 
 .ad-text {
-    padding: 5em 0 2em 0;
+    padding: 5rem 0 2rem 0;
     align-items: center;
     display: flex;
     justify-content: center;
 
     p {
-        width: 68%;
+        width: 70%;
         text-align: center;
 
         font: {
-            size: 2.3em;
-            weight: 700;
+            size: 1.9rem;
+            weight: 600;
         }
     }
 }
 
 
-// .ad-var {
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-//     justify-content: center;
-// }
+.ad-var {
+    display: flex;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 2.5rem;
+}
 
 .services-var {
+    // width: 51%;
     display: flex;
+    padding: 3rem 2rem;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    p{
-        width: 63%;
+
+    p {
+        text-align: center;
+        font-size: 1.2rem;
     }
 }
 
+h2 {
+    font-size: 1.7rem;
+    margin: 1.5rem;
+    text-align: center;
+}
+
 .var-icon {
-    font-size: 5.5em;
+    font-size: 4.0rem;
     color: #3f3194;
     text-shadow: 0px 0px 2px black;
     text-align: center;
+}
+
+.persuade-atributes {
+    background-image: url(/img/atlanta\ made\ sign\ orange.jpg);
+    background-attachment: fixed;
+    background-position-x: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    p {
+        background: rgb(0 0 0 / 26%);
+        width: 70%;
+        color: aliceblue;
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    a {
+        font-size: 1.2rem;
+        color: aqua;
+        padding-bottom: 3rem;
+    }
+}
+
+h3 {
+    width: 70%;
+    background: rgb(0 0 0 / 26%);
+    color: #fff;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+// .projects-title {
+// outline: 1px solid red;
+//     // width: 80%;
+//     display: flex;
+//     align-items: center;
+// }
+
+.portfolio {
+    background-image: url(/img/lines-h2-bg.png);
+}
+
+h4 {
+    font-size: 2.1rem;
+    text-align: center;
+    padding: 6rem;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+    justify-content: space-evenly;
+}
+
+
+// .card-position {
+//     // width: 50%;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
+
+.card {
+    padding: 1rem;
+    margin: 1rem;
+
+    img {
+        height: 280px;
+    }
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+
+    p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
+
+h5 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.review-body {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: flex-start;
+    padding: 3rem;
+
+    // span {
+    //     margin: 1rem;
+
+    //     font: {
+    //         size: 1.1rem;
+    //     }
+    // }
+
+    // p {
+    //     font: {
+    //         size: 1rem;
+    //     }
+    // }
+}
+
+h6 {
+    font: {
+        size: 1.45rem;
+        weight: 600;
+    }
+}
+
+.bi-avatar {
+    font-size: 3rem;
+    padding-right: 0.5rem;
+
+}
+
+.customer-name {
+    margin: 1rem 1rem 1rem 0;
+
+    span {
+        font-size: 1.2rem;
+        font-style: oblique;
+    }
+}
+
+footer {
+    background-color: #364577;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+
+    p {
+        font-size: 1.2rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+.bi {
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
