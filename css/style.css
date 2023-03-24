@@ -10911,7 +10911,7 @@ h4, .h4 {
   padding: 6rem;
 }
 
-.one {
+.card-section {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

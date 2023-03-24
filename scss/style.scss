@@ -38,7 +38,7 @@ body {
 // }
 
 .info {
-    background-image: url("/img/atlanta_made_sign.png");
+    background-image: url("/img/atlanta_made_sign.jpg");
     background-attachment: fixed;
     height: 30em;
     display: flex;
@@ -142,7 +142,7 @@ h2 {
 }
 
 .persuade-atributes {
-    background-image: url(/img/atlanta_made_sign_orange.png);
+    background-image: url(/img/atlanta_made_sign_orange.jpg);
     background-attachment: fixed;
     background-position-x: center;
     display: flex;
@@ -193,7 +193,7 @@ h4 {
     padding: 6rem;
 }
 
-.one {
+.card-section {
     display: flex;
     flex-direction: row;
     // align-items: center;
