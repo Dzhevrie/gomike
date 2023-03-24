@@ -10790,7 +10790,7 @@ body {
 }
 
 .info {
-  background-image: url("/img/atlanta\ made\ sign.png");
+  background-image: url("/img/atlanta_made_sign.png");
   background-attachment: fixed;
   height: 30em;
   display: flex;
@@ -10869,7 +10869,7 @@ h2, .h2 {
 }
 
 .persuade-atributes {
-  background-image: url(/img/atlanta\ made\ sign\ orange.jpg);
+  background-image: url(/img/atlanta_made_sign_orange.png);
   background-attachment: fixed;
   background-position-x: center;
   display: flex;
