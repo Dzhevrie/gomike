@@ -19,7 +19,7 @@ body {
 }
 
 .info {
-  background-image: url("/img/atlanta_made_sign.png");
+  background-image: url("./img/atlanta_made_sign.jpg");
   background-attachment: fixed;
   height: 30em;
   display: flex;
@@ -28,17 +28,13 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .info img {
   width: 9rem;
 }
-
-.info h1,
-.info .h1 {
+.info h1 {
   margin: 0.2rem;
   font-size: 2.8rem;
 }
-
 .info p {
   width: 60%;
   font-size: 2.2rem;
@@ -51,7 +47,6 @@ body {
   border-radius: 2rem;
   padding: 0.7rem 1.7rem;
 }
-
 .btn:hover {
   background-color: navajowhite;
 }
@@ -62,7 +57,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .ad-text p {
   width: 70%;
   text-align: center;
@@ -85,14 +79,12 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 .services-var p {
   text-align: center;
   font-size: 1.2rem;
 }
 
-h2,
-.h2 {
+h2 {
   font-size: 1.7rem;
   margin: 1.5rem;
   text-align: center;
@@ -106,7 +98,7 @@ h2,
 }
 
 .persuade-atributes {
-  background-image: url(/img/atlanta_made_sign_orange.png);
+  background-image: url(./img/atlanta_made_sign_orange.jpg);
   background-attachment: fixed;
   background-position-x: center;
   display: flex;
@@ -114,7 +106,6 @@ h2,
   flex-direction: column;
   justify-content: space-evenly;
 }
-
 .persuade-atributes p {
   background: rgba(0, 0, 0, 0.26);
   width: 70%;
@@ -124,15 +115,13 @@ h2,
   text-align: center;
   padding: 2rem;
 }
-
 .persuade-atributes a {
   font-size: 1.2rem;
   color: aqua;
   padding-bottom: 3rem;
 }
 
-h3,
-.h3 {
+h3 {
   width: 70%;
   background: rgba(0, 0, 0, 0.26);
   color: #fff;
@@ -142,11 +131,10 @@ h3,
 }
 
 .portfolio {
-  background-image: url(/img/lines-h2-bg.png);
+  background-image: url(./img/lines-h2-bg.png);
 }
 
-h4,
-.h4 {
+h4 {
   font-size: 2.1rem;
   text-align: center;
   padding: 6rem;
@@ -162,7 +150,6 @@ h4,
   padding: 1rem;
   margin: 0;
 }
-
 .card img {
   height: 280px;
 }
@@ -172,14 +159,12 @@ h4,
   flex-direction: column;
   align-items: center;
 }
-
 .card-body p {
   font-size: 0.9rem;
   text-align: center;
 }
 
-h5,
-.h5 {
+h5 {
   text-align: center;
   font-size: 1.2rem;
   font-weight: 700;
@@ -189,8 +174,7 @@ h5,
   padding: 3rem;
 }
 
-h6,
-.h6 {
+h6 {
   font-size: 1.45rem;
   font-weight: 600;
 }
@@ -203,7 +187,6 @@ h6,
 .customer-name {
   margin: 1rem 1rem 1rem 0;
 }
-
 .customer-name span {
   font-size: 1.2rem;
   font-style: oblique;
@@ -219,7 +202,6 @@ footer {
   color: white;
   text-align: center;
 }
-
 footer p {
   font-size: 1.2rem;
   margin-bottom: 2.5rem;
