@@ -15,9 +15,13 @@ body {
     margin: 1.2rem;
 }
 
+.navbar-toggler-icon {
+    background-color: #3f3194;
+}
+
 .navbar-brand {
     img {
-        width: 250px;
+        width: 235px;
     }
 }
 
@@ -25,15 +29,15 @@ body {
     color: #000;
 
     font: {
-        size: 1.4rem;
+        size: 1.2rem;
         weight: 500;
     }
 }
 
 .info {
-    background-image: url("../img/atlanta_made_sign.jpg");
+    background-image: url("../img/atlanta_made_sign.webp");
     background-attachment: fixed;
-    height: 30em;
+    height: 23rem;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -41,14 +45,14 @@ body {
     justify-content: center;
 
     img {
-        width: 9rem;
+        width: 7rem;
     }
 
     h1 {
-        margin: 0.2rem;
+        margin: 1rem;
 
         font: {
-            size: 2.8rem;
+            size: 2.3rem;
         }
     }
 
@@ -66,7 +70,7 @@ body {
     background-color: #ea6433;
     color: #fff;
     border-radius: 2rem;
-    padding: 0.7rem 1.7rem;
+    padding: 0.5rem 1.9rem;
 
     &:hover {
         background-color: navajowhite;
@@ -100,7 +104,6 @@ body {
 }
 
 .services-var {
-    // width: 51%;
     display: flex;
     padding: 3rem 2rem;
     flex-direction: column;
@@ -108,25 +111,27 @@ body {
 
     p {
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
-h2 {
-    font-size: 1.7rem;
-    margin: 1.5rem;
-    text-align: center;
-}
-
 .var-icon {
-    font-size: 4.0rem;
+    font-size: 3.5rem;
     color: #3f3194;
     text-shadow: 0px 0px 2px black;
     text-align: center;
 }
 
+h2 {
+    font-size: 1.6rem;
+    margin: 1.4rem;
+    text-align: center;
+}
+
+
+
 .persuade-atributes {
-    background-image: url(../img/atlanta_made_sign_orange.jpg);
+    background-image: url(../img/atlanta_made_sign_orange.webp);
     background-attachment: fixed;
     background-position-x: center;
     display: flex;
@@ -161,7 +166,7 @@ h3 {
 }
 
 .portfolio {
-    background-image: url(../img/lines-h2-bg.png);
+    background-image: url(../img/lines-h2-bg.webp);
 }
 
 h4 {
@@ -250,6 +255,3 @@ footer {
     padding: 2rem;
     margin-top: 2rem;
 }
-
-
-
