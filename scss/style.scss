@@ -33,7 +33,7 @@ body {
 .info {
     background-image: url("../img/atlanta_made_sign.webp");
     background-attachment: fixed;
-    height: 23rem;
+    height: 25rem;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -137,9 +137,9 @@ h2 {
 
     p {
         background: rgb(0 0 0 / 26%);
-        width: 70%;
+        width: 50%;
         color: aliceblue;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 500;
         text-align: center;
         padding: 2rem;
@@ -153,10 +153,10 @@ h2 {
 }
 
 h3 {
-    width: 70%;
+    width: 50%;
     background: rgb(0 0 0 / 26%);
     color: #fff;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-top: 5rem;
 }
@@ -166,9 +166,9 @@ h3 {
 }
 
 h4 {
-    font-size: 2.1rem;
+    font-size: 2rem;
     text-align: center;
-    padding: 6rem;
+    padding: 5rem;
 }
 
 .card-section {
