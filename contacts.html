@@ -22,13 +22,13 @@
 <body>
 	<header>
 		<nav class="navbar navbar-expand-md">
-			<div class="container bg-white">
-				<a href="index.html" class="navbar-brand text-uppercase fw-bold">
+			<div class="container">
+				<a href="index.html" class="navbar-brand">
 					<img src="./img/atlanta_web_design_logo.webp" alt="atlanta web design logo">
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+					<i class="bi-btn bi-menu-up"></i>
 				</button>
 				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 					<ul class="navbar-nav">
@@ -44,11 +44,12 @@
 		</nav>
 	</header>
 	<main>
-	
-		<div class="row">
-			<div class="col-12 col-md-6 contact-form">
-				<form class="row">
-					<div class="col-12 col-md-pull-6 my-2">
+
+		<div class="row contact-container">
+			<h1 class="contact-title">Contact us:</h1>
+			<div class="col-12 col-md-6">
+				<form class="row contact-form">
+					<div class="col-12 col-md-6 my-2">
 						<label for="firstname" class="form-label">First name</label>
 						<input name="firstname" type="text" class="form-control" id="firstname">
 					</div>
@@ -56,13 +57,13 @@
 						<label for="lastname" class="form-label">Last name</label>
 						<input name="lastname" type="text" class="form-control" id="lastname">
 					</div>
-					<div class="col-12 my-2">
+					<div class="col-12 col-md-6  my-2">
 						<label for="email" class="form-label">Email address</label>
 						<input name="email" type="email" class="form-control" id="email">
 					</div>
 					<div class="col-12 my-2">
 						<label for="message" class="form-label">Message</label>
-						<textarea name="message" class="form-control" id="message" rows="3"></textarea>
+						<textarea name="message" class="form-control" id="message" rows="8"></textarea>
 					</div>
 					<div class="col-12 my-2">
 						<button type="submit" class="sub-btn">Submit</button>
@@ -70,28 +71,54 @@
 				</form>
 			</div>
 			<div class="col-12 offset-md-1 col-md-6 contact-details w-auto">
-				<h1>
-					Contact details:
-				</h1>
+				<h2 class="avaliable-title">Avaliable</h2>
+				<ul class="work-hours list-unstyled">
+					<li>9am - 5pm</li>
+					<li>Monday-Friday</li>
+				</ul>
+				<ul class="contct-details list-unstyled">
+					<li>E-mail: mike@gomikedesigns.com</li>
+					<li>Phone: +1 (404) 555-1234</li>
+				</ul>
+				<ul class="address list-unstyled">
+					<li>123 Peachtree Avenu</li>
+					<li>Atlanta, GA</li>
+				</ul>
 			</div>
 		</div>
 
 	</main>
 	<footer class="footer">
-		<div class="">
-			<p>
-				GoMike Designs - Web designer living and loving Atlanta.<br>
-			</p>
-			<!-- <div class=""> -->
-			<!-- <div class="col-sm-3"> -->
-			<i class="bi bi-instagram"></i>
-			<i class="bi bi-youtube"></i>
-			<i class="bi bi-facebook"></i>
-			<i class="bi bi-twitter"></i>
-			<i class="bi bi-linkedin"></i>
-			
-		</div>
-	
+		<div class="container bloc-sm">
+			<div class="social-media">
+				<p>
+					GoMike Designs - Web designer living and loving Atlanta.<br>
+				</p>
+				<a href="#">
+					<i class="bi bi-instagram" data-bs-toggle="tooltip" data-bs-placement="top"
+						data-bs-title="Instagram"></i>
+				</a>
+				<a href="#">
+					<i class="bi bi-youtube" data-bs-toggle="tooltip" data-bs-placement="top"
+						data-bs-title="YouTube"></i>
+				</a>
+				<a href="#">
+					<i class="bi bi-facebook" data-bs-toggle="tooltip" data-bs-placement="top"
+						data-bs-title="Facebook"></i>
+				</a>
+				<a href="#">
+					<i class="bi bi-twitter" data-bs-toggle="tooltip" data-bs-placement="top"
+						data-bs-title="Twitter"></i>
+				</a>
+				<a href="#">
+					<i class="bi bi-linkedin" data-bs-toggle="tooltip" data-bs-placement="top"
+						data-bs-title="Linkedin"></i>
+				</a>
+				<a href="mailto:mike@gomikedesigns.com">
+					<i class="bi bi-envelope" data-bs-toggle="tooltip" data-bs-placement="top"
+						data-bs-title="E-mail"></i>
+				</a>
+			</div>
 	</footer>
 
 	<!-- JS script -->
