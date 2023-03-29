@@ -38,44 +38,45 @@ body {
     width: 100%;
 }
 
-.info {
+.info-block {
     background-image: url("../img/atlanta_made_sign_info.webp");
     background-attachment: fixed;
-    height: 25rem;
     display: flex;
-    width: 100%;
+    justify-content: center;
+    height: 25rem;
+
+}
+
+.info {
+    background-color: #a4081770;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 2.7rem;
+    border-radius: 2rem;
 
     img {
         width: 110px;
     }
 
     h1 {
-        color: #000;
+        color: white;
         margin: 1rem;
 
         font: {
-            size: 2.3rem;
-        }
-    }
-
-    p {
-        width: 60%;
-
-        font: {
             size: 2.2rem;
-            weight: 600;
         }
     }
+
 }
 
 .btn {
-    background-color: #ea6433;
+    background-color: #9bc5c7;
     color: #fff;
     border-radius: 2rem;
-    padding: 0.5rem 1.9rem;
+    padding: 0.8rem 2.9rem;
+    font-size: 1.3rem;
 
     &:hover {
         background-color: navajowhite;
@@ -133,8 +134,6 @@ h2 {
     text-align: center;
 }
 
-
-
 .persuade-atributes {
     background-image: url(../img/atlanta_made_sign_orange.webp);
     background-attachment: fixed;
@@ -183,12 +182,10 @@ h4 {
 .card-section {
     display: flex;
     flex-direction: row;
-    // align-items: center;
     justify-content: space-evenly;
 }
 
 .card {
-    // padding: 1rem;
     margin: 1.2rem;
 
     img {
@@ -202,14 +199,15 @@ h4 {
     align-items: center;
 
     p {
-        font-size: 0.9rem;
+        font-size: 1rem;
         text-align: center;
+        padding: inherit;
     }
 }
 
 h5 {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 
@@ -287,7 +285,7 @@ footer {
 }
 
 .contact-form {
-    background-color: lightyellow;
+    background-color: #c8d9e8;
     padding: 1rem;
 }
 
