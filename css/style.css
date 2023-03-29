@@ -35,7 +35,6 @@ body {
 }
 
 .info {
-  background-color: rgba(164, 8, 23, 0.4392156863);
   display: flex;
   flex-direction: column;
   align-items: center;
