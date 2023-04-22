@@ -4,6 +4,8 @@
 // bootstrap
 // @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+// @import "utils/buttons";
+
 // CSS code
 body {
     padding: 0;
@@ -79,7 +81,7 @@ body {
     font-size: 1.3rem;
 
     &:hover {
-        background-color: navajowhite;
+        background-color: #ffdead;
     }
 }
 
@@ -121,12 +123,12 @@ body {
     }
 }
 
-.var-icon {
-    font-size: 3.5rem;
-    color: #3f3194;
-    text-shadow: 0px 0px 2px black;
-    text-align: center;
-}
+// .var-icon {
+//     font-size: 3.5rem;
+//     color: #3f3194;
+//     text-shadow: 0px 0px 2px black;
+//     text-align: center;
+// }
 
 h2 {
     font-size: 1.6rem;
@@ -189,7 +191,7 @@ h4 {
     margin: 1.2rem;
 
     img {
-        height: 300px;
+        // height: 300px;
     }
 }
 
