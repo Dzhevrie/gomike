@@ -87,6 +87,20 @@ body {
     }
 }
 
+.btn-portfolio {
+    background-color: #9bc5c7;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 0.7rem 2.9rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 1rem;
+
+    &:hover {
+        background-color: #ffdead;
+    }
+}
+
 .ad-text {
     padding: 5rem 0 2rem 0;
     align-items: center;
@@ -262,16 +276,19 @@ footer {
     }
 }
 
-.bi {
-    font-size: 2rem;
-    padding: 2rem;
-    margin-top: 2rem;
-}
+// .bi {
+//     font-size: 2rem;
+//     padding: 2rem;
+//     margin-top: 2rem;
+// }
 
 .social-media {
     a {
         text-decoration: none;
         color: #fff;
+        font-size: 2rem;
+        padding: 2rem;
+        margin-top: 2rem;
     }
 }
 

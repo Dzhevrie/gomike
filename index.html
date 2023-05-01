@@ -12,15 +12,16 @@
 
 
 	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> -->
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> -->
 
 
 	<!-- CSS links -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/et-line.css">
-	<link rel="stylesheet" href="css/bootstrap-icons.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/bootstrap-icons.css"> -->
+	<link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap-icons.css">
 	<!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"> -->
 
@@ -63,7 +64,7 @@
 		</nav>
 	</header>
 	<main>
-		<div class="main-container">
+		<div class="container-fluid">
 			<div class="row info-block">
 				<article class="col-12 col-md-4 info">
 					<img src="./img/atlanta_web_designer_mike.webp" alt="Atlanta web designer Mike's picture">
@@ -143,7 +144,7 @@
 								<p class="card-text">I love dogs and was super excited to make a website for an
 									Atlanta dog company.
 								</p>
-								<a href="#" class="btn">Visite the site</a>
+								<a href="#" class="btn-portfolio">Visite the site</a>
 							</div>
 						</div>
 					</div>
@@ -156,7 +157,7 @@
 								<p class="card-text">They make the best cupcakes in Atlanta and I wanted to show
 									this online.
 								</p>
-								<a href="#" class="btn">Visite the site</a>
+								<a href="#" class="btn-portfolio">Visite the site</a>
 							</div>
 						</div>
 					</div>
@@ -169,7 +170,7 @@
 								<p class="card-text">Whenever I'm wanting to improve my web design skills, this shop
 									inspires me.
 								</p>
-								<a href="#" class="btn">Visite the site</a>
+								<a href="#" class="btn-portfolio">Visite the site</a>
 							</div>
 						</div>
 					</div>
@@ -184,7 +185,7 @@
 								<p class="card-text">A few months ago, I created their new website and it's bringing
 									lots of leads.
 								</p>
-								<a href="#" class="btn">Visite the site</a>
+								<a href="#" class="btn-portfolio">Visite the site</a>
 							</div>
 						</div>
 					</div>
@@ -235,7 +236,7 @@
 				</a>
 				<a href="#">
 					<span class="fa fa-twitter icon-md"></span>
-					<i class="bi bi-twitter"></i>
+					<!-- <i class="bi bi-twitter"></i> -->
 					<i class="bi bi-twitter" data-bs-toggle="tooltip" data-bs-placement="top"
 						data-bs-title="Twitter"></i>
 				</a>
@@ -249,19 +250,24 @@
 				</a>
 			</div>
 	</footer>
-
 	<!-- JS script -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 		</script>
-	<!-- <script src="../js/script.js"></script> -->
-	<script>
-		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-		var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-			return new bootstrap.Tooltip(tooltipTriggerEl)
-		})
-	</script>
+	<script src="../js/script.js"></script> -->
 
 </body>
+
+<!-- <script src="bootstrap-5.3.0/js/bootstrap.min.js"></script> -->
+<script src="bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+<script>
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+		return new bootstrap.Tooltip(tooltipTriggerEl)
+	})
+
+	// const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+	// const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
 
 </html>
